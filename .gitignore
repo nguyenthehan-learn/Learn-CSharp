@@ -1,0 +1,17 @@
+# ============================================
+# .gitignore cho project C# / .NET
+# Những file/thư mục liệt kê ở đây sẽ KHÔNG được đẩy lên GitHub
+# ============================================
+
+# Thư mục build do dotnet tự sinh ra (không cần lưu)
+bin/
+obj/
+
+# File cấu hình IDE cá nhân
+.vs/
+.vscode/
+*.user
+
+# File tạm
+*.tmp
+*.log
